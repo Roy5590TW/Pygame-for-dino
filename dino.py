@@ -30,7 +30,7 @@ pygame.mixer.init()
 # 設定視窗大小
 window_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('小恐龍遊戲')
-pygame.mixer.music.load('bgm.wav')
+pygame.mixer.music.load('bgm.mp3')
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1)
 score_sound = pygame.mixer.Sound('score.wav')
